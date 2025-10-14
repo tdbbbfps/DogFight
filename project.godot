@@ -14,6 +14,10 @@ config/name="DogFight"
 config/features=PackedStringArray("4.5", "Forward Plus")
 config/icon="res://icon.svg"
 
+[autoload]
+
+JetComponentManager="*res://manager/jet_component_manager/jet_component_manager.gd"
+
 [display]
 
 window/size/viewport_width=640

@@ -1,6 +1,6 @@
 [gd_scene load_steps=6 format=3 uid="uid://buvgww8vsn4ew"]
 
-[ext_resource type="Script" uid="uid://c563ukngn0cig" path="res://entities/player/player.gd" id="1_abrql"]
+[ext_resource type="Script" uid="uid://c563ukngn0cig" path="res://entities/jets/player/player.gd" id="1_abrql"]
 [ext_resource type="Texture2D" uid="uid://x8pduqo3jxj1" path="res://assets/Jets/BasicJet.png" id="1_symyc"]
 
 [sub_resource type="Animation" id="Animation_symyc"]

@@ -1,0 +1,2 @@
+extends JetComponent
+class_name JetWeapon

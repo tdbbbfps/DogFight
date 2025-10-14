@@ -1,6 +1,6 @@
 [gd_scene load_steps=3 format=3 uid="uid://bai7vrtpsl18e"]
 
-[ext_resource type="PackedScene" uid="uid://buvgww8vsn4ew" path="res://entities/player/player.tscn" id="1_ig7tw"]
+[ext_resource type="PackedScene" uid="uid://buvgww8vsn4ew" path="res://entities/jets/player/player.tscn" id="1_ig7tw"]
 [ext_resource type="Texture2D" uid="uid://ql8d3afxutha" path="res://icon.svg" id="2_0xm2m"]
 
 [node name="Main" type="Node2D"]
@@ -26,3 +26,4 @@ position = Vector2(877, 167)
 texture = ExtResource("2_0xm2m")
 
 [node name="Player" parent="." instance=ExtResource("1_ig7tw")]
+visible = false

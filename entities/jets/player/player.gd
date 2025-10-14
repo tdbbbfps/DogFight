@@ -1,12 +1,4 @@
-extends CharacterBody2D
-
-# Movement parameters.
-@export var max_speed : float = 500.0
-@export var accel : float = 100.0
-@export var decel : float = 50.0
-var current_speed : float = 0.0
-
-@export var rotation_speed : float = 5.0
+extends Jet
 
 func _physics_process(delta: float) -> void:
 	handle_flight(delta)
@@ -20,7 +12,7 @@ func handle_flight(delta : float) -> void:
 		current_speed = move_toward(current_speed, max_speed, accel * delta)
 	else:
 		current_speed = move_toward(current_speed, 0, decel * delta)
-	print(current_speed)
+	#print(current_speed)
 		
 func handle_rotation(delta : float) -> void:
 	"""使玩家轉向滑鼠方向"""
